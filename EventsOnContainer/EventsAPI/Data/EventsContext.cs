@@ -10,6 +10,10 @@ namespace EventsAPI.Data
 {
     public class EventsContext :DbContext
     {
+        public EventsContext(DbContextOptions options) : base(options)
+        {
+
+        }
         // What part
         public DbSet<EventsType> EventTypes { get; set; }
         public DbSet<EventsHost> EventHosts { get; set; }
