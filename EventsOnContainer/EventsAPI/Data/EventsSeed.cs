@@ -196,66 +196,7 @@ namespace EventsAPI.Data
                     EndTime = new DateTime(2021,08,19,6,10,20,DateTimeKind.Local),
                 },
                                
-                new Event
-                {
-                    Description = "Cooking Class ~ Homemade Tomato Risotto with Burrata and Basil ",
-                    Name = " Tomato Risotto with Burrata and Basil",
-                    Price = 5,
-                    StartTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
-                    EndTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
-                    EventCreaterId = 6,
-                    EventsTypeId = 5,
-                    LocationId = 1,
-                    PictureUrl = ""
-                },
-                new Event
-                {
-                    Description = "Cooking Class ~ Jambalaya with Saffron Aioli! Presented with our Buddies at SCANPAN & GLOBAL Cutlery",
-                    Name = "Jambalaya with Saffron Aioli",
-                    Price = 3,
-                    StartTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
-                    EndTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
-                    EventCreaterId = 6,
-                    EventsTypeId = 5,
-                    LocationId = 1,
-                    PictureUrl = ""
-                },
-                new Event
-                {
-                    Description = "Cooking Class ~ Vegan Pie with Sudha",
-                    Name = "Vegan Pie",
-                    Price = 5,
-                    StartTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
-                    EndTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
-                    EventCreaterId = 6,
-                    EventsTypeId = 5,
-                    LocationId = 1,
-                    PictureUrl = ""
-                },
-                new Event
-                {
-                    Description =" More and more people are interested in vegan/plant-based eating. Some are just curious, some want to get their feet wet, and some are ready to come to the V-side - ",
-                    Name = "Vegan For Beginners",
-                    Price = 3,
-                    StartTime = new DateTime(2021, 9, 18, 17,0,0,DateTimeKind.Local),
-                    EndTime = new DateTime(2021, 9, 18, 18,0,0,DateTimeKind.Local),
-                    EventCreaterId = 7,
-                    EventsTypeId = 5,
-                    LocationId = 1,
-                    PictureUrl = ""
-                },
-                new Event
-                {
-                    Description ="Homemade Free Cooking Class ~ Cheese Soufflé and Summer Salad with Green Goddess Dressing, with our Buddies at Cabot Cheese ",
-                    Name = "Cheese Soufflé and Summer Salad",
-                    Price = 0,
-                    StartTime = new DateTime(2021, 9, 28, 16,0,0,DateTimeKind.Local),
-                    EndTime = new DateTime(2021, 9, 28, 17,0,0,DateTimeKind.Local),
-                    EventCreaterId = 6,
-                    EventsTypeId = 5,
-                    LocationId = 1,
-                    PictureUrl = ""
-                },
+                
                 new Event
                 {
                     EventsTypeId = 4,
@@ -317,7 +258,66 @@ namespace EventsAPI.Data
                     EndTime = new DateTime(2021,08,14,8,00,20,DateTimeKind.Local),
                 },
 
-
+                new Event
+                {
+                    Description = "Cooking Class ~ Homemade Tomato Risotto with Burrata and Basil ",
+                    Name = " Tomato Risotto with Burrata and Basil",
+                    Price = 5,
+                    StartTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
+                    EndTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
+                    EventCreaterId = 6,
+                    EventsTypeId = 5,
+                    LocationId = 1,
+                    PictureUrl = ""
+                },
+                new Event
+                {
+                    Description = "Cooking Class ~ Jambalaya with Saffron Aioli! Presented with our Buddies at SCANPAN & GLOBAL Cutlery",
+                    Name = "Jambalaya with Saffron Aioli",
+                    Price = 3,
+                    StartTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
+                    EndTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
+                    EventCreaterId = 6,
+                    EventsTypeId = 5,
+                    LocationId = 1,
+                    PictureUrl = ""
+                },
+                new Event
+                {
+                    Description = "No time in the morning? Learn how to whip up nourishing smoothie bowls in no time flat.",
+                    Name = "Smoothie Bowls and Beyond",
+                    Price = 5,
+                    StartTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
+                    EndTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
+                    EventCreaterId = 17,
+                    EventsTypeId = 5,
+                    LocationId = 1,
+                    PictureUrl = ""
+                },
+                new Event
+                {
+                    Description =" More and more people are interested in vegan/plant-based eating. Some are just curious, some want to get their feet wet, and some are ready to come to the V-side - ",
+                    Name = "Vegan For Beginners",
+                    Price = 3,
+                    StartTime = new DateTime(2021, 9, 18, 17,0,0,DateTimeKind.Local),
+                    EndTime = new DateTime(2021, 9, 18, 18,0,0,DateTimeKind.Local),
+                    EventCreaterId = 7,
+                    EventsTypeId = 5,
+                    LocationId = 1,
+                    PictureUrl = ""
+                },
+                new Event
+                {
+                    Description ="Homemade Free Cooking Class ~ Cheese Soufflé and Summer Salad with Green Goddess Dressing, with our Buddies at Cabot Cheese ",
+                    Name = "Cheese Soufflé and Summer Salad",
+                    Price = 0,
+                    StartTime = new DateTime(2021, 9, 28, 16,0,0,DateTimeKind.Local),
+                    EndTime = new DateTime(2021, 9, 28, 17,0,0,DateTimeKind.Local),
+                    EventCreaterId = 6,
+                    EventsTypeId = 5,
+                    LocationId = 1,
+                    PictureUrl = ""
+                },
                 new Event
                 {
                     EventsTypeId = 2,
@@ -479,6 +479,10 @@ namespace EventsAPI.Data
                 new EventsHost
                 {
                     Creater = "SweatNET Seattle & Pier 62"
+                },
+                new EventsHost
+                {
+                    Creater = "Basics Market"
                 }
             };
         }
