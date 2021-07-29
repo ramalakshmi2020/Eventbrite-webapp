@@ -109,6 +109,27 @@ namespace EventsAPI.Data
                     City = "Princeton",
                     State = "WV"
                 },
+                new Location
+                {
+                    Lat = 61.21807M,
+                    Lon = -149.90029M,
+                    City = "Anchorage",
+                    State = "AK"
+                },
+                new Location
+                {
+                    Lat = 47.65145M,
+                    Lon = -122.35365M,
+                    City = "Seattle",
+                    State = "WA"
+                },
+                new Location
+                {
+                    Lat = 47.60866M,
+                    Lon = -122.34520M,
+                    City = "Seattle",
+                    State = "WA"
+                }
             };
         }
 
@@ -296,6 +317,71 @@ namespace EventsAPI.Data
                     EndTime = new DateTime(2021,08,14,8,00,20,DateTimeKind.Local),
                 },
 
+
+                new Event
+                {
+                    EventsTypeId = 2,
+                    EventCreaterId =13,
+                    LocationId = 11,
+                    Description = "Discover the power of your breath to relieve stress, ease anxiety and calm your mind in a free LIVE and interactive session.",
+                    Name = "Beyond Breath - An Introduction to SKY Breath Meditation-Anchorage",
+                    Price = 0.0M,
+                    PictureUrl = "",
+                    StartTime = new DateTime(2021,07,31,3,00,20,DateTimeKind.Local),
+                    EndTime = new DateTime(2021,07,31,4,15,20,DateTimeKind.Local),
+                },
+                 new Event
+                {
+                     EventsTypeId = 2,
+                    EventCreaterId =13,
+                    LocationId = 1,
+                    Description = "Discover the power of your breath to relieve stress, ease anxiety and calm your mind in a free LIVE and interactive session.",
+                    Name = "Beyond Breath - An Introduction to SKY Breath Meditation - Seattle",
+                    Price = 0.0M,
+                    PictureUrl = "",
+                    StartTime = new DateTime(2021,07,31,4,00,20,DateTimeKind.Local),
+                    EndTime = new DateTime(2021,07,31,5,00,20,DateTimeKind.Local),
+
+                },
+
+                  new Event
+                {
+                    EventsTypeId = 2,
+                    EventCreaterId =14,
+                    LocationId = 5,
+                    Description = "Pranayama △ Joy of Breathing",
+                    Name = "Free Online Breathwork Class. Unlock the benefits of Joy of Breathing. Awaken a conscious connection with your body, mind, heart and spirit.",
+                    Price = 0.0M,
+                    PictureUrl = "",
+                    StartTime = new DateTime(2021,08,04,10,00,20,DateTimeKind.Local),
+                    EndTime = new DateTime(2021,08,04,10,30,20,DateTimeKind.Local),
+                },
+
+                   new Event
+                {
+                    EventsTypeId = 2,
+                    EventCreaterId =15,
+                    LocationId =12,
+                    Description = "Zumba® with Daniel Santos: In-Person and Virtual",
+                    Name = "Zumba® fuses hypnotic Latin rhythms and easy-to-follow moves to create a one-of-a-kind fitness program.",
+                    Price = 15.50M,
+                    PictureUrl = "",
+                    StartTime = new DateTime(2021,08,12,10,00,20,DateTimeKind.Local),
+                    EndTime = new DateTime(2021,08,12,11,00,20,DateTimeKind.Local),
+                },
+                    new Event
+                {
+                    EventsTypeId = 2,
+                    EventCreaterId =16,
+                    LocationId = 13,
+                    Description = "A workout for the entire family! Seattle Dance Fitness will be guiding you through an easy fun dance workout that'll have you making special fun memories! No need for any dance experience!",
+                    Name = "DropSound Family Dance Class",
+                    Price = 20.99M,
+                    PictureUrl = "",
+                    StartTime = new DateTime(2021,08,07,9,00,20,DateTimeKind.Local),
+                    EndTime = new DateTime(2021,08,07,10,00,20,DateTimeKind.Local),
+                },
+
             };
         }
 
@@ -377,6 +463,22 @@ namespace EventsAPI.Data
                 new EventsHost
                 {
                     Creater = "The Bronze Look, LLC"
+                },
+                new EventsHost
+                {
+                    Creater = "The Art of Living Foundation"
+                },
+                new EventsHost
+                {
+                    Creater = "Soul Dimension"
+                },
+                new EventsHost
+                {
+                    Creater = "Bahia In Motion"
+                },
+                new EventsHost
+                {
+                    Creater = "SweatNET Seattle & Pier 62"
                 }
             };
         }
