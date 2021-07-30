@@ -81,5 +81,29 @@ namespace EventsAPI.Controllers
             return Ok(model);
         }
 
+        [HttpGet("[action]")]
+        public async Task<IActionResult> EventsByLocation(
+            [FromQuery] int locationId = 1,
+            [FromQuery] int pageIndex = 0,
+            [FromQuery] int pageSize = 1
+            )
+        {
+            var eventsCount = _context.Events.Where(c => c.Location.Id == locationId).LongCountAsync();
+            var items = await _context.Events.OrderByDescending(c => c.StartTime)
+                            .Where(c => c.Location.Id == locationId)
+                            .Skip(pageIndex * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            items = ChangePictureUrl(items);
+            var model = new PaginatedEventsViewModel
+            {
+                PageIndex = pageIndex,
+                PageSize = items.Count,
+                Count = eventsCount.Result,
+                Data = items
+            };
+            return Ok(model);
+        }
+
     }
 }
