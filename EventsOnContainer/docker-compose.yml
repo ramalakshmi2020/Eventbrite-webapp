@@ -16,6 +16,7 @@ services:
       DatabaseName: EventsDb
       DatabaseUser: sa
       DatabasePassword: ProductApi(!)
+      ExternalEventUrl: http://localhost:3000
     ports:
       - "3000:80"
     container_name: eventcatalogapi

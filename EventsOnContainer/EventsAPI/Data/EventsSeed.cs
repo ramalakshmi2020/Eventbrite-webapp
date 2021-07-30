@@ -268,7 +268,7 @@ namespace EventsAPI.Data
                     EventCreaterId = 6,
                     EventsTypeId = 5,
                     LocationId = 1,
-                    PictureUrl = ""
+                    PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/11"
                 },
                 new Event
                 {
@@ -280,7 +280,7 @@ namespace EventsAPI.Data
                     EventCreaterId = 6,
                     EventsTypeId = 5,
                     LocationId = 1,
-                    PictureUrl = ""
+                    PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/12"
                 },
                 new Event
                 {
@@ -292,7 +292,7 @@ namespace EventsAPI.Data
                     EventCreaterId = 17,
                     EventsTypeId = 5,
                     LocationId = 1,
-                    PictureUrl = ""
+                    PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/13"
                 },
                 new Event
                 {
@@ -304,7 +304,7 @@ namespace EventsAPI.Data
                     EventCreaterId = 7,
                     EventsTypeId = 5,
                     LocationId = 1,
-                    PictureUrl = ""
+                    PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/14"
                 },
                 new Event
                 {
@@ -316,7 +316,7 @@ namespace EventsAPI.Data
                     EventCreaterId = 6,
                     EventsTypeId = 5,
                     LocationId = 1,
-                    PictureUrl = ""
+                    PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/15"
                 },
                 new Event
                 {
