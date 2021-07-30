@@ -156,7 +156,8 @@ namespace EventsAPI.Data
                     LocationId = 1,
                     Description = "Develop a Successful GreenTech / CleanTech Startup Business Today",
                     Name = "GreenTech / CleanTech",
-                    Price = 50.9M,PictureUrl="http://externaleventsbaseurltobereplaced/api/pic/2",
+                    Price = 50.9M,
+                    PictureUrl="http://externaleventsbaseurltobereplaced/api/pic/2",
                     StartTime = new DateTime(2021,08,16,5,10,20,DateTimeKind.Local),
                     EndTime = new DateTime(2021,08,16,6,10,20,DateTimeKind.Local),
                 },
@@ -261,7 +262,7 @@ namespace EventsAPI.Data
                 new Event
                 {
                     Description = "Cooking Class ~ Homemade Tomato Risotto with Burrata and Basil ",
-                    Name = " Tomato Risotto with Burrata and Basil",
+                    Name = "Tomato Risotto with Burrata and Basil",
                     Price = 5,
                     StartTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
                     EndTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
