@@ -267,7 +267,7 @@ namespace EventsAPI.Data
                     StartTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
                     EndTime = new DateTime(2021, 9, 18, 16, 0, 0, DateTimeKind.Local),
                     EventCreaterId = 6,
-                    EventsTypeId = 5,
+                    EventsTypeId = 1,
                     LocationId = 1,
                     PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/11"
                 },
@@ -279,7 +279,7 @@ namespace EventsAPI.Data
                     StartTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
                     EndTime = new DateTime(2021, 9, 9, 16, 0, 0, DateTimeKind.Local),
                     EventCreaterId = 6,
-                    EventsTypeId = 5,
+                    EventsTypeId = 1,
                     LocationId = 1,
                     PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/12"
                 },
@@ -291,7 +291,7 @@ namespace EventsAPI.Data
                     StartTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
                     EndTime = new DateTime(2021, 9, 15, 16, 0, 0, DateTimeKind.Local),
                     EventCreaterId = 17,
-                    EventsTypeId = 5,
+                    EventsTypeId = 1,
                     LocationId = 1,
                     PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/13"
                 },
@@ -303,7 +303,7 @@ namespace EventsAPI.Data
                     StartTime = new DateTime(2021, 9, 18, 17,0,0,DateTimeKind.Local),
                     EndTime = new DateTime(2021, 9, 18, 18,0,0,DateTimeKind.Local),
                     EventCreaterId = 7,
-                    EventsTypeId = 5,
+                    EventsTypeId = 1,
                     LocationId = 1,
                     PictureUrl = "http://externaleventsbaseurltobereplaced/api/pic/14"
                 },
@@ -333,7 +333,7 @@ namespace EventsAPI.Data
                 },
                  new Event
                 {
-                     EventsTypeId = 2,
+                    EventsTypeId = 2,
                     EventCreaterId =13,
                     LocationId = 1,
                     Description = "Discover the power of your breath to relieve stress, ease anxiety and calm your mind in a free LIVE and interactive session.",
