@@ -36,6 +36,7 @@ namespace TokenServiceApi
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
             var databaseServer = Configuration["DatabaseServer"];
             var databaseName = Configuration["DatabaseName"];
             var databaseUser = Configuration["DatabaseUser"];
