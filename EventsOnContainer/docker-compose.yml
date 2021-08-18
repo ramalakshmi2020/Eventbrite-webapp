@@ -88,5 +88,3 @@ services:
     container_name: eventstokensqlserver
     networks:
       - backend
-
-  
