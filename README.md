@@ -7,3 +7,9 @@ We have implemented APIs which will display events by name, location and price.
 
 The youtube link for the demo video is as follows
 https://youtu.be/4qnXjHd2BOE
+
+Assignment 3b- WebMVC and Token service integration
+
+Integrated with WebMVC Client and token service using Identity service to provide authentication and authorization.
+The demo video for the assignment - 
+https://youtu.be/gYPLRm55OWo
