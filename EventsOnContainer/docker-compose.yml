@@ -162,4 +162,4 @@ services:
     volumes:
       - ~/rabbitmq:/var/lib/rabbitmq/mnesia   
     networks:
-      - backend 
+      - backend
