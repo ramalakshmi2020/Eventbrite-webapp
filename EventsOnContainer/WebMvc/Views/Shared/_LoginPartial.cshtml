@@ -11,7 +11,11 @@
             <form asp-area="" asp-controller="Account" asp-action="SignOut" method="post" id="logoutForm" class="navbar-right">
                 <section class="esh-identity-section">
 
-                    <div class="esh-identity-name">@User.FindFirst(x => x.Type == "preferred_username").Value</div>
+                    <div class="esh-identity-name">
+                        <a asp-area="" asp-controller="Order" asp-action="Index">
+                            @User.FindFirst(x => x.Type == "preferred_username").Value
+                        </a>
+                    </div>
                     @*<div class="esh-identity-name">@User.Identity.Name</div>*@
                     <img class="esh-identity-image" src="~/images/arrow-down.png">
                 </section>

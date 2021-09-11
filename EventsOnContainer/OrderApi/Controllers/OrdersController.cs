@@ -56,12 +56,13 @@ namespace OrderApi.Controllers
 
         }
 
-        [HttpGet]
+        
+        [HttpGet("[action]")]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public async Task<IActionResult> GetOrders()
+        public async Task<IActionResult> GetOrders([FromQuery] string buyerId)
         {
-            var orders = await _ordersContext.Orders.ToListAsync();
+            var orders = await _ordersContext.Orders.Where(order => order.BuyerId == buyerId).ToListAsync();
 
 
             return Ok(orders);

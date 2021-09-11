@@ -44,11 +44,11 @@ namespace WebMvc.Services
             return response;
         }
 
-        public async   Task<List<Order>> GetOrders()
+        public async   Task<List<Order>> GetOrders(string buyerId)
         {
             var token = await GetUserTokenAsync();
-            var allOrdersUri =Apipaths.Order.GetOrders(_remoteServiceBaseUrl);
-
+            var allOrdersUri = Apipaths.Order.GetOrders(_remoteServiceBaseUrl, buyerId); ;
+           
             var dataString = await _apiClient.GetStringAsync(allOrdersUri, token);
             var response = JsonConvert.DeserializeObject<List<Order>>(dataString);
 

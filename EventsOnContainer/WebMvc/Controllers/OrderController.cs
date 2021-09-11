@@ -152,7 +152,10 @@ namespace WebMvc.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var vm = await _orderSvc.GetOrders();
+            var user = _identitySvc.Get(HttpContext.User);
+
+            
+            var vm = await _orderSvc.GetOrders(user.Email);
             return View(vm);
         }
 

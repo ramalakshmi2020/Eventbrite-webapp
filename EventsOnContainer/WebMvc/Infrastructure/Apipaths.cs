@@ -56,9 +56,9 @@ namespace WebMvc.Infrastructure
                 return $"{baseUri}/{orderId}";
             }
 
-            public static string GetOrders(string baseUri)
+            public static string GetOrders(string baseUri, string buyerId)
             {
-                return baseUri;
+                return $"{baseUri}/getorders?buyerId={buyerId}";
             }
             public static string AddNewOrder(string baseUri)
             {
