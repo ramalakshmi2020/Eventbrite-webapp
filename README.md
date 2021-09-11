@@ -13,3 +13,9 @@ Assignment 3b- WebMVC and Token service integration
 Integrated with WebMVC Client and token service using Identity service to provide authentication and authorization.
 The demo video for the assignment - 
 https://youtu.be/gYPLRm55OWo
+
+Assignment 3c - Cart and Order Microservice Integration
+
+Completed the Event brite like site with end - end functionality (browse current events, add/update the cart and place the order)
+The demo video as follows
+https://youtu.be/L9c-K-NoB54
